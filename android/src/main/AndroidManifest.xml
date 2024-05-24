@@ -7,6 +7,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
           package="com.yandex.metrica.plugin.reactnative">
-
+  <uses-permission android:name="com.google.android.gms.permission.AD_ID" tools:node="remove"/>
 </manifest>
